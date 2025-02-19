@@ -1,0 +1,19 @@
+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
+curl https://api.openai.com/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer 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" \
+  -d '{
+    "model": "gpt-4o-mini",
+    "store": true,
+    "messages": [
+      {"role": "user", "content": "write a haiku about ai"}
+    ]
+  }'
+
+OpenRouter
+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
+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
+
+
+question
+I have local database (mysql or oracle) I want to integrate in node js project deepseek free r1 openroute api to question from deep seek chat model but it should generate a output in natural language so we make  descision regarding query from database but model give response in text form. I want to also test in postman
